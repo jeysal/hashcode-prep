@@ -7,4 +7,3 @@ const {
 } = require('process');
 console.log(String(readFileSync(infile)));
 console.log(String(readFileSync(outfile)));
-asdf();
