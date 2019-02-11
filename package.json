@@ -1,5 +1,8 @@
 {
   "license": "UNLICENSED",
+  "installConfig": {
+    "pnp": true
+  },
   "devDependencies": {
     "prettier": "^1.16.4",
     "typescript": "^3.3.3"
