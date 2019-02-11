@@ -19,6 +19,7 @@ const pizza = inputRows.map(row => row.split(''));
 // output
 
 const slices = [];
+let numUsed = 0; // progress
 const used = Array(numRows)
   .fill(0)
   .map(() => Array(numCols).fill(false));
@@ -60,6 +61,7 @@ sliceLoop: while (true) {
             sliceRowsLoop: for (let row = r; row < r + h; row++) {
               sliceColsLoop: for (let col = c; col < c + w; col++) {
                 used[row][col] = true;
+                console.error(++numUsed);
               }
             }
 
