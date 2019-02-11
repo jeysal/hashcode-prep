@@ -64,8 +64,6 @@ sliceLoop: while (true) {
                 console.error(++numUsed);
               }
             }
-
-            continue sliceLoop;
           }
         }
       }
