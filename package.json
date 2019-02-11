@@ -1,0 +1,10 @@
+{
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "prettier": "^1.16.4",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
