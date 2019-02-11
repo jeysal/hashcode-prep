@@ -1,5 +1,0 @@
-- recursive breakdown to smaller parts
-    - where each breakdown optimally contains same parts T and M
-    - try every horizontal/vertical split
-    - maybe completely start over after having placed a slice
-- generally prefer small slices and enlarge them later
