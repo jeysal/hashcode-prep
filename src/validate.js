@@ -28,8 +28,8 @@ const used = Array(numRows)
   .map(() => Array(numCols).fill(false));
 slices.forEach(outputCols => {
   const [r1, c1, r2, c2] = outputCols.split(' ').map(Number);
-  const [cLow, cHigh] = [c1, c2].sort();
-  const [rLow, rHigh] = [r1, r2].sort();
+  const [cLow, cHigh] = [c1, c2].sort((a, b) => a - b);
+  const [rLow, rHigh] = [r1, r2].sort((a, b) => a - b);
   const rs = Array(rHigh - rLow + 1)
     .fill(rLow)
     .map((val, i) => val + i);
